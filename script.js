@@ -56,7 +56,7 @@ function updateStars() {
 const button = document.getElementById("valentinesButton");
 
 button.addEventListener("click", () => {
-  if (button.textContent === "Click Me! ❤") {
+  if (button.textContent === "Click Here! ❤") {
     button.textContent = "loading...";
     fetch("send_mail.php")
       .then((response) => {
@@ -90,7 +90,7 @@ function drawText() {
   if (frameNumber < 300) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "everyday day I cannot believe how lucky I am",
+      "everyday day I cannot believe how lucky I am to have you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -100,7 +100,7 @@ function drawText() {
   if (frameNumber >= 300 && frameNumber < 600) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "everyday day I cannot believe how lucky I am",
+      "everyday day I cannot believe how lucky I am to have you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -160,7 +160,7 @@ function drawText() {
   if (frameNumber > 1200 && frameNumber < 1500) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "to be alive, and to get to spend this life with you",
+      "to be alive, and to get to spending this life with you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -169,7 +169,7 @@ function drawText() {
   if (frameNumber >= 1500 && frameNumber < 1800) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "to be alive, and to get to spend this life with you",
+      "to be alive, and to get to spending this life with you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -208,7 +208,7 @@ function drawText() {
       drawTextWithLineBreaks(
         [
           "and yet here I am to get the impossible",
-          "chance to get to know you",
+          "chance to get to know you and knowing you",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -232,7 +232,7 @@ function drawText() {
       drawTextWithLineBreaks(
         [
           "and yet here I am to get the impossible",
-          "chance to get to know you",
+          "chance to get to know you and knowing you",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -241,7 +241,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and yet here I am to get the impossible chance to get to know you",
+        "and yet here I am to get the impossible chance to get to know you and knowing you",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -259,7 +259,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "I love you so much , more than",
+          "I love you so much Palak, more than",
           "all the time and space in the universe can contain",
         ],
         canvas.width / 2,
