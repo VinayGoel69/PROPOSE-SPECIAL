@@ -269,7 +269,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "I love you so much , more than all the time and space in the universe can contain",
+        "I love you so much Palak , more than all the time and space in the universe can contain",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -286,6 +286,7 @@ function drawText() {
         [
           "and I can't wait to spend all the time in",
           "the world to share that love with you!",
+          "What i ever wanted is to love from depth of my Heart My love",
         ],
         canvas.width / 2,
         canvas.height / 2 + 70,
@@ -294,7 +295,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and I can't wait to spend all the time in the world to share that love with you!",
+        "and I can't wait to spend all the time in the world to share that love with you my sweet girl!",
         canvas.width / 2,
         canvas.height / 2 + 50
       );
